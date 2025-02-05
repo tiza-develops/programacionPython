@@ -1,4 +1,4 @@
-class cuadro:
+class Cuadro:
     def __init__ (self, lado):
         self.lado = lado
         self.peri = lado*4
@@ -6,7 +6,7 @@ class cuadro:
         print(self.peri)
         print(self.area)
 
-class rectangulo:
+class Rectangulo:
     def __init__(self, l1, l2):
         self.l1 = l1
         self.l2 = l2
@@ -15,7 +15,7 @@ class rectangulo:
         print(self.peri)
         print(self.area)
 
-class triangulo:
+class Triangulo:
     def __init__(self, l1,l2,l3):
         self.l1 = l1
         self.l2 = l2
@@ -25,3 +25,10 @@ class triangulo:
         self.area = (self.semi*(self.semi-self.l1)*(self.semi-self.l2)*(self.semi-self.l3)) ** 0.5
         print(self.peri)
         print(self.area)
+
+class Pentagono: 
+    def __init__(self, h, l):
+        self.l = l
+        self.h = h
+        self.peri = l*5
+        self.area = ((h*l)/2)*5
