@@ -3,4 +3,6 @@ class Cliente:
         self.nombre = nombre
         self.direccion = direccion
         self.edad = edad
+def imprimirDetalles(persona):
+    print("Nombre:", persona.nombre, "Dirección:", persona.direccion, "Edad:", persona.edad)
 
