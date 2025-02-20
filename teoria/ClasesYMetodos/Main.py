@@ -1,5 +1,9 @@
 from Cliente import *
 from Cuenta import *
+
+class Main:
+    pass
+
 class mensajeBienvenida:
     def __init__():
         pass
@@ -7,6 +11,9 @@ class mensajeBienvenida:
         print("Hola")
 
 mensajeBienvenida.darBienvenida()
+
 Juan = Cliente("Juan","Xochimilco 13", "34")
 imprimirDetalles(Juan)
+
+cuenta1 = Cuenta(100,"debito","Juan")
 
