@@ -1,10 +1,10 @@
 class Cuenta:
     def __init__(self, saldo, tipo, propietarix):
-        self.saldo = saldo
+        self.saldo = saldCuentao
         self.tipo = tipo
         self.propietarix = propietarix
-def imprimirDetalles(persona):
-    print("Nombre:", persona.nombre, "Dirección:", persona.direccion, "Edad:", persona.edad)
+def imprimirDetallesCuenta(persona):
+    print("Saldo:", persona.saldo, "Tipo", persona.tipo, "Propietarix", persona.propietarix)
 def retirar():
     pass
 def depositar():
