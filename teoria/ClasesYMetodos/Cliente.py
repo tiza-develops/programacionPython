@@ -1,3 +1,7 @@
+'''
+author: Hugo Tonatiuh Carrillo Bonilla
+date: Feb 26, 2025
+'''
 class Cliente:
     def __init__(self, nombre, direccion, edad):
         self.nombre = nombre

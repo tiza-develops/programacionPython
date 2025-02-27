@@ -1,3 +1,7 @@
+'''
+author: Hugo Tonatiuh Carrillo Bonilla
+date: Feb 26, 2025
+'''
 class Cuenta:
     def __init__(self, saldo, tipo, propietarix):
         self.saldo = saldo

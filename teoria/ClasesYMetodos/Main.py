@@ -1,3 +1,7 @@
+'''
+author: Hugo Tonatiuh Carrillo Bonilla
+date: Feb 26, 2025
+'''
 from Cliente import *
 from Cuenta import *
 
