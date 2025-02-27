@@ -12,8 +12,21 @@ def imprimirDetallesCuenta(persona):
     print("Saldo:", persona.saldo, "Tipo", persona.tipo, "Propietarix", persona.propietarix)
 
 def retirar():
-    pass
+    message = input("Indique cuánto desea retirar")
+    try:
+        persona.saldo = persona.saldo - message
+        print("Su nuevo saldo es", persona.saldo)
+    except:
+        print("Introduzca un número")
+        retirar()
 
 def depositar():
-    pass
+    message = input("Indique cuánto desea depositar")
+        try:
+            persona.saldo = persona.saldo - message
+            print("Su nuevo saldo es", persona.saldo)
+        except:
+            print("Introduzca un número")
+            retirar()
+
 
