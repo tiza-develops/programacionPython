@@ -22,11 +22,11 @@ def retirar():
 
 def depositar():
     message = input("Indique cuánto desea depositar")
-        try:
-            persona.saldo = persona.saldo - message
-            print("Su nuevo saldo es", persona.saldo)
-        except:
-            print("Introduzca un número")
-            retirar()
+    try:
+        persona.saldo = persona.saldo - message
+        print("Su nuevo saldo es", persona.saldo)
+    except:
+        print("Introduzca un número")
+        retirar()
 
 

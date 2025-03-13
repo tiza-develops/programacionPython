@@ -4,20 +4,11 @@ date: Feb 26, 2025
 '''
 from Cliente import *
 from Cuenta import *
+from Menu import *
 
 class Main:
-    pass
+    def main():
+        mensajeBienvenida.darBienvenida()
+        menu.imprimirMenu()
 
-class mensajeBienvenida:
-    def __init__():
-        pass
-    def darBienvenida():
-        print("Hola")
-
-mensajeBienvenida.darBienvenida()
-
-Juan = Cliente("Juan","Xochimilco 13", "34")
-imprimirDetalles(Juan)
-
-cuenta1 = Cuenta(100,"debito","Juan")
-
+Main.main()
